@@ -16,6 +16,14 @@ As well as a personal QoL option to make every tool as fast as possible while ma
 * Finally add my own custom prefixes to help weaker classes a bit
 
 # Changelog
+* 3.4
+  * Fixed a crash caused by certain mods calling GlobalItem.ChoosePrefix when loading
+  * Disabled prefixes for "unlimited"/"endless" items that count as ammo or fire projectiles
+* 3.3
+  * Fixed the icon being too small
+* 3.2
+  * Added a dummy github homepage
+  * Added an icon
 * 3.0:
   * Completely revamped how prefixes are chosen for items. Each item is now individually tested with each valid prefix.
   * Fully fleshed out mod support. Should now work with any mod's prefixes and for any modded item. As a side note, any ModPrefix that applies to accessories is immediately assumed to be Tier 4.  Thus they will always be rollable assuming the config allows it.
