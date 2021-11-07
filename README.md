@@ -19,9 +19,9 @@ As well as a personal QoL option to make every tool as fast as possible while ma
  3.0:
 * Completely revamped how prefixes are chosen for items. Each item is now individually tested with each valid prefix.
 * Fully fleshed out mod support. Should now work with any mod's prefixes and for any modded item.
-** As a side note, any ModPrefix that applies to accessories is immediately assumed to be Tier 4.  Thus they will always be rollable assuming the config allows it.
+ As a side note, any ModPrefix that applies to accessories is immediately assumed to be Tier 4.  Thus they will always be rollable assuming the config allows it.
 * Made every config change require a reload. Sadly there's no getting around this due to the way I've cached prefixes.
-**  Due to this possibly being an issue, I have pre-set config values to what I think should be a good threshold for the "best" prefixes.  Keep in mind this threshold is just a default and you are free to change it if need be.
+ Due to this possibly being an issue, I have pre-set config values to what I think should be a good threshold for the "best" prefixes.  Keep in mind this threshold is just a default and you are free to change it if need be.
 * Fixed a bug where max speed tools would not be properly reset.
 * Fixed a bug where max speed tools would lose their favoriting if they somehow gained a prefix.
 * Fixed a bug where max speed tools could gain a prefix via reforging.
