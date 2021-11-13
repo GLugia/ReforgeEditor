@@ -16,6 +16,24 @@ As well as a personal QoL option to make every tool as fast as possible while ma
 * Finally add my own custom prefixes to help weaker classes a bit
 
 # Changelog
+* 3.9:
+  * Improved loading time
+  * Reduced RAM usage by about 30%
+  * Fixed an issue with attempting to load prefixes for walls
+  * Fixed a bug causing Terraria to stop loading
+* 3.8:
+  * Added a config option to remove prefixes from items when they are created. Defaults to true.
+  * Cost of reforging is now configurable. Defaults to 3x.
+    * This is only temporary while I figure out some math involving the amount of removed prefixes compared to the average cost of reforging the best prefix
+* 3.7:
+  * Doubled the price of reforging items that already have a prefix
+  * Fixed an bug where non-sword melee weapons could recieve melee prefixes (ie yoyos getting Legendary)
+* 3.6:
+  * Fixed an bug where Max Speed Tools was not properly set on items
+  * Fixed a crash
+* 3.5:
+  * Now normalizes valid prefix stat changes. This fixes a number of items not having prefixes to roll.
+    * Due to this, the default Minimum Tool Threshold has been raised to 0.7
 * 3.4
   * Fixed a crash caused by certain mods calling GlobalItem.ChoosePrefix when loading
   * Disabled prefixes for "unlimited"/"endless" items that count as ammo or fire projectiles
