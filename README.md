@@ -1,5 +1,5 @@
 # ReforgeEditor
-Better Reforges is a configurable mod that changes what reforges every item can get based on their original stats.
+Better Reforges is a configurable mod that calculates the efficiency of prefixes for every existing item. Then it checks config settings to see if that efficiency value is within the given thresholds.
 As well as a personal QoL option to make every tool as fast as possible while maintaining their power. This option removes existing prefixes from all tools.
 
 # Update
@@ -11,8 +11,6 @@ As well as a personal QoL option to make every tool as fast as possible while ma
 * Enabling the "Max Speed Tools" config removes prefixes from all tools and disallows reforging them.
 
 # TODO
-* Heavily increase the price of reforging
-* Remove the ability for items to gain a prefix on creation
 * Finally add my own custom prefixes to help weaker classes a bit
 
 # Changelog
