@@ -1,6 +1,6 @@
 # ReforgeEditor
-Better Reforges is a configurable mod that calculates the efficiency of prefixes for every existing item. Then it checks config settings to see if that efficiency value is within the given thresholds.
-As well as a personal QoL option to make every tool as fast as possible while maintaining their power. This option removes existing prefixes from all tools.
+* Better Reforges is a configurable mod that calculates the efficiency of prefixes for every existing item. Then it checks config settings to see if that efficiency value is within the given thresholds.
+* As well as a personal QoL option to make every tool as fast as possible while maintaining their power. This option removes existing prefixes from all tools.
 
 # Update
 * If you have any issues please message me via Discord @Lulu#1628
